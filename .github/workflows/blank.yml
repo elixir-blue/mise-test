@@ -1,0 +1,19 @@
+name: Test mise action(s)
+
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+          - windows-latest
+          - macos-latest
+    runs-on: ${{ matrix.os }}
+    steps:
+      - run: echo "hello"
