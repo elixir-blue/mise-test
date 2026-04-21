@@ -1,5 +1,5 @@
 [tools]
-bitwarden-secrets-manager = "latest"
+bitwarden-secrets-manager = "2.0.0"
 cmake = "4.1.6"
 dotnet = "10.0.202"
 node = "25.9.0"
