@@ -20,3 +20,8 @@ jobs:
       - uses: jdx/mise-action@v4
         with:
           install: true
+      - run: |
+          dotnet --version
+          node --version
+          yarn --version
+          python --version
